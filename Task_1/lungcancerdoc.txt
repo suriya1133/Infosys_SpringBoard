@@ -1,0 +1,39 @@
+steps and process:
+1. Authentication with Google Cloud
+	Authentcating the user in the google Cloud
+2. Accessing the Google Sheet
+	Accessing the datset using the google sheet
+3. Converting Data to a Pandas DataFrame
+	using pandas reading the csv dataframes
+4. Data Cleaning and Preprocessing
+	Dropping and Renaming Columns. 
+	Converting Columns to Numeric.
+	Additional Cleaning.
+5. Handling Missing Values
+	Displays the count of missing values by ignoring errors
+6. Encoding the Target Variable
+	Encodes categorical target labels in the "Level" column into numerical values.
+7. Splitting Data into Features and Target
+	Splits the dataset into features (x) and the target (y).
+8. Feature Scaling
+	Standardizes the features to have a mean of 0 and a standard deviation of 1.
+9. Splitting Data into Training and Testing Sets
+	Splits the dataset into training and testing subsets.
+	30% of the data is used for testing.
+10. Training a Random Forest Classifier
+	Trains a Random Forest classifier on the training data.
+	Predicts the target labels for the test data.
+11. Model Evaluation
+Accuracy : claculating the overall accuracy
+Confusion Matrix : Displays the confusion matrix to evaluate classification performance.
+Classification Report : Generates a detailed report showing precision, recall, F1-score, and support for each class.
+12. Output Results
+	Accuracy of the random forest classifier
+	Confusion Matrix
+	Classification report
+
+Summary :
+	1.Accessing and preprocessing data from Google Sheets.
+	2.Cleaning and preparing data for analysis.
+	3.Training and evaluating a machine learning model (Random Forest Classifier).
+	4.Generating performance metrics.
