@@ -1,0 +1,21 @@
+Steps and process
+  1.installing the required packages
+  pandas
+  numpy
+  nlp
+  2. mounting the drive and accessing the the dataset from the drive
+  3. reading the csv file using the pandas package and sampling th dataset
+  4. importing the required packages like..
+  Numpy,pandas,nltk,seaborn,spacy,matplotlib...
+  5. text proccessing
+  cleaning text
+  tokenization
+  stopwords removal
+  parts of speech tagging
+  lemmatization
+  6. text preprocessing
+  7. claculating the term frequenices for both sample data, preprocessed data and presenting the terms using barplot for the sample, preprocessed data
+  8. separating the doctor, patient diagloue conversation and applying the sentimentintensityanalyzer for the coversation
+  9. using the sentimentintensityanalyzer and extracting the positive and negative conversation in the data and representing the data in the form of pie chart.
+  10. collecting the common disease for extraction and extract diseases in the dataset and representing the most repeated diseases in the given data.
+  11. using the ipywidgets created an widget slider for representing the diseases that is present in the dataset.
