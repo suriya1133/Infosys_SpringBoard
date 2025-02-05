@@ -283,7 +283,7 @@ if patient_risk == "High":
           "214M1A3133@vemu.org"  # Additional guest email(s), if any
       ]
   })
-else if patient_risk == "Low":
+elif patient_risk == "Low":
   print(f"Patient: {patient_name} risk is Low.")
 # API Authorization and Headers
 headers = {
