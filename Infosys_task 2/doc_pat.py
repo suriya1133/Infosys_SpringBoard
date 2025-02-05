@@ -283,6 +283,8 @@ if patient_risk == "High":
           "214M1A3133@vemu.org"  # Additional guest email(s), if any
       ]
   })
+else if patient_risk == "Low":
+  print(f"Patient: {patient_name} risk is Low.")
 # API Authorization and Headers
 headers = {
     'Authorization': 'Bearer cal_live_4e2f37409c7cd4660808a842e97be7b7',  # Replace with your Cal.com API key
